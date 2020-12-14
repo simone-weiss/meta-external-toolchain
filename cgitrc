@@ -1,0 +1,3 @@
+desc=OE/Yocto external toolchain support layer
+section=-Yocto Metadata Layers - Other Layers
+hide=0
