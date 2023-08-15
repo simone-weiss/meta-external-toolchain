@@ -12,7 +12,7 @@ DEBUG_PREFIX_MAP:prepend:external = "\
     -fdebug-prefix-map=${S}=/usr/src/debug/${EXTERNAL_PN} \
 "
 
-inherit package copydebugsources_extra
+inherit copydebugsources_extra
 
 python external_debugsrc () {
     enabled = d.getVar('EXTERNAL_DEBUGSOURCES')
